@@ -5,7 +5,8 @@ body{
     font-size: 22px;
     color: seashell;
     opacity: 0.9;
-    background-color: black;
+    background-color: #1794B0;
+    margin: 0;
 }
 
 h2{
@@ -19,9 +20,21 @@ h4{
     text-align: center;
 }
 
-div{
-    border: 1px solid white;
+a{
+    cursor: auto;
+    color: seashell;
 }
+
+#video{
+    display: flex;
+    width: 1200px;
+    height: 720px;
+}
+
+
+/*div{
+    border: 1px solid white;
+}*/
 
 /* Header */
 .page-container{
@@ -46,8 +59,8 @@ header {
     align-items: center;
     flex-grow: 1;
     padding-left: 10px;
-    background-color: black;
-
+    /*background-color: black;*/
+    background-color: #1794B0;
 }
 
 .logo img {
@@ -56,8 +69,10 @@ header {
 
 nav{
     text-align: right;
-    background-color: black;
+    /*background-color: black;*/
+    background-color: #1794B0;
     z-index: 1;
+    padding-top: 15px;
 }
 
 .logo nav {
@@ -86,7 +101,8 @@ nav span{
 .mission-content{
     justify-content: center;
     margin: auto;
-    background-color: black;
+    /*background-color: black;*/
+    background-color: #1794B0;
 }
 
 .mission-container{
@@ -97,6 +113,7 @@ nav span{
     height: 700px;
     width: 1200px;
     margin-top: 0;
+    z-index: -1;
 }
 
 .mission-content .mission-container{
@@ -148,6 +165,8 @@ nav span{
     display: flex;
     justify-content: center;
     margin-top: 15px;
+    padding: 20px;
+    opacity: 1;
 }
 
 .location-content{
@@ -155,10 +174,26 @@ nav span{
 }
 
 .location{
-    background-color: black;
+    /*background-color: black;*/
+    background-color: #1794B0;
     width: 300px;
     text-align: center;
     margin-left: 40px;
+    opacity: 1;
+}
 
+#contact{
+    margin-top: 10px;
+    height: 200px;
+    text-align: center;
+}
 
+#footer{
+    margin-left: 20px;
+    text-align: left;
+    font-family: Helvetica;
+    font-size: 22px;
+    color: seashell;
+    opacity: 0.9;
+    background-color: #1794B0;
 }
